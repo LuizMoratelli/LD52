@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7277e0d310538e4409685cea6177ccd0, type: 3}
+  m_Name: BlueFlower
+  m_EditorClassIdentifier: 
+  Stages:
+  - TimeToNextStage: 5
+    SpriteStage: {fileID: -1960808404, guid: 6fe9d1648de2e6b4b94ddb2147a7e214, type: 3}
+  - TimeToNextStage: 5
+    SpriteStage: {fileID: -417795640, guid: 6fe9d1648de2e6b4b94ddb2147a7e214, type: 3}
+  - TimeToNextStage: 0
+    SpriteStage: {fileID: -40502314, guid: 6fe9d1648de2e6b4b94ddb2147a7e214, type: 3}
